@@ -1,0 +1,14 @@
+.footer{
+    bottom: 0;
+    color: grey;
+    background-color: #fafafa;
+    font-family: 'Helvetica';
+    position: fixed;
+    text-align: right;
+    width: 100%;
+    overflow: auto;
+}
+
+p{
+    margin-right: 2%;
+}
