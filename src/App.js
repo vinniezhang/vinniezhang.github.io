@@ -20,11 +20,13 @@ function App() {
   }
 
   return (
+    console.log("This is the process.env", process.env.PUBLIC_URL)
     <Router>
       <Sidebar/>
       <div className="App">
         <div style={{paddingBottom:'50px'}}>
-          <Route exact path='/' component={AboutMain}/>
+          {/* <Route exact path='/' component={AboutMain}/> */}
+          <Route exact path={`/`} render={ (routerProps) => <AboutMain routerProps={routerProps} />} />
           <Route path='/Projects' component={ProjectsMain}/>
           {/* <Route path='/Photography' component={PhotographyMain}/> */}
           <Route path='/film' component={PhotographyMain}/>
