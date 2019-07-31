@@ -20,7 +20,6 @@ function App() {
   }
 
   return (
-    console.log("This is the process.env", process.env.PUBLIC_URL)
     <Router>
       <Sidebar/>
       <div className="App">
