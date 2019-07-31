@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://vinniezhang.github.io/portfolio",
+  "homepage": "http://vinniezhang.github.io/",
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.10.0",
     "@material-ui/core": "^4.1.1",
