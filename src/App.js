@@ -24,8 +24,8 @@ function App() {
       <Sidebar/>
       <div className="App">
         <div style={{paddingBottom:'50px'}}>
-          {/* <Route exact path='/' component={AboutMain}/> */}
-          <Route exact path={`/`} render={ (routerProps) => <AboutMain routerProps={routerProps} />} />
+          <Route exact path='/' component={AboutMain}/>
+          {/* <Route exact path={`/`} render={ (routerProps) => <AboutMain routerProps={routerProps} />} /> */}
           <Route path='/Projects' component={ProjectsMain}/>
           {/* <Route path='/Photography' component={PhotographyMain}/> */}
           <Route path='/film' component={PhotographyMain}/>

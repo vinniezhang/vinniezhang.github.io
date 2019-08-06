@@ -34,7 +34,7 @@ class ContactMain extends Component{
                 </p>
               </Grid>
 
-              <Grid style={{height:'4vh', margin:'7.5vh'}} item xs={12} md={3} lg={3}>
+              <Grid style={{height:'4vh', margin:'7.5vh'}} item xs={12} lg={3}>
                   <Paper style={{opacity:'.6', padding:'3vh', marginRight:'1vw', marginLeft:'1vw'}}>
                     <a href="https://github.com/vinniezhang" target='__blank' style={{textDecoration:'none'}}>
                       <Typography style={{margin:'auto', fontSize:'2vw', color:'black', fontWeight:'bold'}}>
@@ -46,7 +46,7 @@ class ContactMain extends Component{
                   </Paper>
               </Grid>
 
-              <Grid style={{height:'4vh', margin:'7.5vh'}} item xs={12} md={3} lg={3}>
+              <Grid style={{height:'4vh', margin:'7.5vh'}} item xs={12} lg={3}>
                 <Paper style={{opacity:'.6', padding:'3vh', marginRight:'1vw', marginLeft:'1vw'}}>
                   <a href="https://www.linkedin.com/in/vinnie-zhang/" target='__blank' style={{textDecoration:'none'}}>
                     <Typography style={{margin:'auto', fontSize:'2vw', color:'black', fontWeight:'bold'}}>
@@ -58,7 +58,7 @@ class ContactMain extends Component{
                 </Paper>
               </Grid>
 
-              <Grid style={{height:'4vh', margin:'7.5vh'}} item xs={12} md={3} lg={3}>
+              <Grid style={{height:'4vh', margin:'7.5vh'}} item xs={12} lg={3}>
                 <Paper style={{opacity:'.6', padding:'3vh', marginRight:'1vw', marginLeft:'1vw'}}>
                   <a href='mailto:vz377@nyu.edu' style={{textDecoration:'none'}}>
                     <Typography style={{margin:'auto', fontSize:'2vw', color:'black', fontWeight:'bold'}}>

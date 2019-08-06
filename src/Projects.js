@@ -41,7 +41,7 @@ class ProjectsMain extends Component{
 
             <Grid item xs={10} style={{marginTop:'5vh'}}>
               <Paper style={{paddingTop:'3vh', paddingBottom:'3vh'}}>
-                <Typography style={{color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'5px'}}>Rouxlette</Typography>
+                <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'5px'}}>Rouxlette</Typography>
                 <Typography style={{color: '#5c563a', fontSize:'13px', textAlign:'center', margin:'auto', marginBottom:'20px', width:'65%'}}>(In collaboration with four other developers for NYU's Agile Software Development & DevOps, Spring 2019)</Typography>
                
                 <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}> <b>Description:</b> Web application that generates a compact list of restaurants matching user specified criteria, eliminating 
@@ -93,7 +93,7 @@ class ProjectsMain extends Component{
 
             <Grid item xs={10} style={{marginTop:'5vh'}}>
               <Paper style={{paddingTop:'3vh', paddingBottom:'3vh'}}>
-                <Typography style={{color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'20px'}}>CATCH</Typography>
+                <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'20px'}}>CATCH</Typography>
                 <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}>  <b>Description:</b> Web application that helps match universities to prospective college students given their academic, social, and financial needs. Data visualizations
                   demonstrate how user ranks among admitted students of corresponding colleges.
                 <br/><br/><b>Technologies:</b> ReactJS, Redux, Axios, College ScoreCard API, Material UI, D3</Typography><br/>
@@ -104,7 +104,7 @@ class ProjectsMain extends Component{
 
             <Grid item xs={10} style={{marginTop:'5vh'}}>
               <Paper style={{paddingTop:'3vh', paddingBottom:'3vh'}}>
-                <Typography style={{color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'20px'}}>Retriever</Typography>
+                <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'20px'}}>Retriever</Typography>
                 <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}> <b>Description:</b> Web application that allows users to search for lost and found items, generating public posts that contain accurate contact information, location, and description of the object. A pin of the specified address (where the item was found/lost) is rendered on a Google Maps frame (2019 HackNYU project).<br/><br/>
                 <b>Technologies:</b> HTML/CSS, JavaScript, Python Flask, Google Cloud API</Typography><br/>     
 
@@ -159,7 +159,7 @@ class ProjectsMain extends Component{
 
             <Grid item xs={10} style={{marginTop:'5vh'}}>
               <Paper style={{paddingTop:'3vh', paddingBottom:'3vh'}}>
-                <Typography style={{color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'20px'}}>Sesame Street Blockbuster</Typography>
+                <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'20px'}}>Sesame Street Blockbuster</Typography>
                 <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}>  <b>Description:</b> Recreated a Sesame Street-styled <i>Atari Breakout</i> game
                 in homage to Sesame Street's older generation of fans for their 50th Anniversary. The game has 12 levels, one for each of the main muppets
                 and includes three different power balls throughout. <i>Blockbuster</i> is currently live on SesameStreet.org/games.
@@ -209,7 +209,7 @@ class ProjectsMain extends Component{
 
             <Grid item xs={10} style={{marginTop:'5vh'}}>
               <Paper style={{paddingTop:'3vh', paddingBottom:'3vh'}}>
-                <Typography style={{color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'20px'}}>Head Drama</Typography>
+                <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'20px'}}>Head Drama</Typography>
                 <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}>  <b>Description:</b> An interactive personality quiz in which the user's answers determines the succeeding design and layout of the website, culminating in a 
                   unique video net-art story, specifically generated according to the user's inputs.
                 <br/><br/><b>Technologies:</b> HTML/CSS, p5 JavaScript, Adobe Photoshop</Typography><br/>
@@ -271,7 +271,7 @@ class ProjectsMain extends Component{
 
             <Grid item xs={10} style={{marginTop:'5vh'}}>
               <Paper style={{paddingTop:'3vh', paddingBottom:'3vh'}}>
-                <Typography style={{color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'20px'}}>Stress-Free TV</Typography>
+                <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'20px'}}>Stress-Free TV</Typography>
                 <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}> <b>Description:</b> Web application that allows users to choose different audio tracks to layer over each other, with the purpose of each user being able to customize a soundscape unique to him/her.
                 All images and audio clips are self-produced.  
                 <br/><br/><b>Technologies:</b> HTML/CSS, JavaScript, Adobe Photoshop</Typography><br/>
@@ -314,7 +314,7 @@ class ProjectsMain extends Component{
 
             <Grid item xs={10} style={{marginTop:'5vh'}}>
               <Paper style={{paddingTop:'3vh', paddingBottom:'3vh'}}>
-                <Typography style={{color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'20px'}}>Adventures of Pablo</Typography>
+                <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'20px'}}>Adventures of Pablo</Typography>
                 <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}> <b>Description:</b> An interactive comic experience in which the user is responsible for determining the sequence 
                   of events/animations that execute. All images are self-produced.
                 <br/><br/><b>Technologies:</b> HTML/CSS, JavaScript, Adobe Photoshop</Typography><br/>
