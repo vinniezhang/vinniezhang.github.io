@@ -10,7 +10,7 @@ import PhotographyMain from './Photography';
 import PoetryMain from './Poetry';
 import ResumeMain from './Resume';
 import ContactMain from './Contact';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {HashRouter as Router, Route} from 'react-router-dom';
 
 function App() {
   const [value, setValue] = React.useState(0);  

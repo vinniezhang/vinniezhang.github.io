@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'font-awesome/css/font-awesome.min.css';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 
 // for use on actual website
 ReactDOM.render(<Router basename={process.env.PUBLIC_URL}><App />, document.getElementById('root')</Router>);
