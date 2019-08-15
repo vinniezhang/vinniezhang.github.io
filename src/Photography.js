@@ -32,6 +32,9 @@ class PhotographyMain extends Component{
 
   handleChange = (event, value) => {
     this.setState({ value });
+    const defaultFilm = document.getElementById('defaultFilm');
+
+    defaultFilm.setAttribute('style', 'display:none');
   };
 
   render()
@@ -54,11 +57,19 @@ class PhotographyMain extends Component{
                       inkBarStyle={{background:'#9c9c87'}}
                       style={{marginBottom:'30px', textDecoration:'none'}}
                   >
-                    <Tab label="35mm Film" style={{fontSize:'1vw'}} component={Link} to='/film' />
+                    <Tab label="35mm Film" selected={true} style={{fontSize:'1vw'}} component={Link} to='/film' />
                     <Tab label="Digital" style={{fontSize:'1vw'}} component={Link} to='/digital' />
                   </Tabs>
                 </Paper>
                 </Grid>
+
+              <GridList id="defaultFilm" style={{width:'100%', marginBottom:'20px', paddingLeft:'5%', paddingRight:'5%'}} cellHeight={'30%'} cols={3}>
+                    {filmTileData.map(tile => (
+                      <GridListTile style={{padding:'10px'}} key={tile.img} cols={tile.cols || 1}>
+                        <img style={{width:'100%'}} src={tile.img} alt={tile.title} />
+                      </GridListTile>
+                    ))}
+              </GridList>
 
               <Switch>
                 <Route path='/film'> 
