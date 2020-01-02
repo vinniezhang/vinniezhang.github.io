@@ -137,7 +137,7 @@ export default function MiniDrawer() {
           <div style={{display:'inline-block', width: '90%', textAlign:'center', paddingTop:'10px'}}>
               
           <Grid direction='row' alignItems='center' justify='center' style={{width:'100%', marginBottom:'20px', paddingLeft:'5%', paddingRight:'5%'}} xs={12}> 
-              <Typist avgTypingDelay={180} startDelay={500}>
+              <Typist avgTypingDelay={210} startDelay={500}>
                       programmer and poet
                       <Typist.Backspace count={21} avgTypingDelay={50} delay={1700} />
                       vinnie zhang
