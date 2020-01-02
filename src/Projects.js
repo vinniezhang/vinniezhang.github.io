@@ -16,6 +16,8 @@ import sesame4 from './project_images/sesame4.png';
 import tv1 from './project_images/tv1.png';
 import tv2 from './project_images/tv2.png';
 import tv3 from './project_images/tv3.png';
+import catch1 from './project_images/catch1.png';
+import catch2 from './project_images/catch2.png';
 import pablo1 from './project_images/pablo1.png';
 import pablo2 from './project_images/pablo2.png';
 import pablo3 from './project_images/pablo3.png';
@@ -29,6 +31,15 @@ import rouxlette1 from './project_images/rouxlette1.png';
 import rouxlette2 from './project_images/rouxlette2.png';
 import rouxlette3 from './project_images/rouxlette3.png';
 import rouxlette4 from './project_images/rouxlette4.png';
+import baby1 from './project_images/baby1.png';
+import baby2 from './project_images/baby2.png';
+import baby3 from './project_images/baby3.png';
+import baby4 from './project_images/baby4.png';
+import biome1 from './project_images/biome1.png';
+import biome2 from './project_images/biome2.png';
+import biome3 from './project_images/biome3.png';
+import biome4 from './project_images/biome4.png';
+import biome5 from './project_images/biome5.png';
 
 
 class ProjectsMain extends Component{
@@ -41,8 +52,121 @@ class ProjectsMain extends Component{
 
             <Grid item xs={10} style={{marginTop:'5vh'}}>
               <Paper style={{paddingTop:'3vh', paddingBottom:'3vh'}}>
-                <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'5px'}}>Rouxlette</Typography>
-                <Typography style={{color: '#5c563a', fontSize:'13px', textAlign:'center', margin:'auto', marginBottom:'20px', width:'65%'}}>(In collaboration with four other developers for NYU's Agile Software Development & DevOps, Spring 2019)</Typography>
+                <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'5px'}}>Biome Blocks</Typography><br/>
+               
+                <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}> <b>Description:</b> An augmented reality application that allows users to customize and combine
+                their individiual biomes (displayed via fiducial markers) to allow for an immersive and interactive experience.<br/><br/> This game was built in collaboration with three other coders, each of whom designed one of the biomes that each fiducial marker represents.
+                <br/><br/>
+                <b>Technologies:</b> HTML/CSS, JavaScript - p5 library, AR</Typography><br/>
+
+                <a href='https://github.com/vinniezhang/BiomeBlocks' target='_blank' style={{textDecoration:'none'}}>Click here to view this project's source code.</a>
+              
+                <div style={{display:'inline-block', marginTop:'2vh'}}>
+                  <MDBContainer>
+                    <MDBCarousel
+                      activeItem={1}
+                      length={5}
+                      showControls={true}
+                      showIndicators={false}
+                      style={{zIndex:'0', width:'65%', margin:'auto', marginTop:'1vh'}}
+                    >
+                      <MDBCarouselInner>
+                        <MDBCarouselItem itemId="1">
+                          <MDBView>
+                            <img className="d-block w-100" src={biome1}/>
+                          </MDBView>
+                        </MDBCarouselItem>
+
+                        <MDBCarouselItem itemId="2">
+                          <MDBView>
+                            <img className="d-block w-100" src={biome2}/>
+                          </MDBView>
+                        </MDBCarouselItem>
+
+                        <MDBCarouselItem itemId="3">
+                          <MDBView>
+                            <img className="d-block w-100" src={biome3}/>
+                          </MDBView>
+                        </MDBCarouselItem>
+
+                        <MDBCarouselItem itemId="4">
+                          <MDBView>
+                            <img className="d-block w-100" src={biome4}/>
+                          </MDBView>
+                        </MDBCarouselItem>
+
+                        <MDBCarouselItem itemId="5">
+                          <MDBView>
+                            <img className="d-block w-100" src={biome5}/>
+                          </MDBView>
+                        </MDBCarouselItem>
+
+                      </MDBCarouselInner>
+                    </MDBCarousel>
+                  </MDBContainer>
+                </div>
+              
+              </Paper>
+            </Grid>
+
+            <Grid item xs={10} style={{marginTop:'5vh'}}>
+              <Paper style={{paddingTop:'3vh', paddingBottom:'3vh'}}>
+                <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'5px'}}>Are You Baby?</Typography><br/>
+               
+                <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}> <b>Description:</b> A cohesive overworld that allows the user to play up to four mini-games. 
+                Starting off inside a child's playroom, the user may enter and explore multiple game stations, each indicated by a star icon. <br/><br/> This game was built in collaboration with three other coders, each of whom was designated one of the four games to build.
+                I coded a "Frogger"-inspired version of the baby game, where the user must collect items and avoid obstacles before crossing the river. <br/><br/>
+                <b>Technologies:</b> HTML/CSS, JavaScript - p5 library</Typography><br/>
+
+                <a href='https://github.com/vinniezhang/Interactive-Computing/tree/master/midterm' target='_blank' style={{textDecoration:'none'}}>Click here to view this project's source code.</a>
+              
+                <div style={{display:'inline-block', marginTop:'2vh'}}>
+                  <MDBContainer>
+                    <MDBCarousel
+                      activeItem={1}
+                      length={4}
+                      showControls={true}
+                      showIndicators={false}
+                      style={{zIndex:'0', width:'65%', margin:'auto', marginTop:'1vh'}}
+                    >
+                      <MDBCarouselInner>
+                        <MDBCarouselItem itemId="1">
+                          <MDBView>
+                            <img className="d-block w-100" src={baby1}/>
+                          </MDBView>
+                        </MDBCarouselItem>
+
+                        <MDBCarouselItem itemId="2">
+                          <MDBView>
+                            <img className="d-block w-100" src={baby2}/>
+                          </MDBView>
+                        </MDBCarouselItem>
+
+                        <MDBCarouselItem itemId="3">
+                          <MDBView>
+                            <img className="d-block w-100" src={baby3}/>
+                          </MDBView>
+                        </MDBCarouselItem>
+
+                        <MDBCarouselItem itemId="4">
+                          <MDBView>
+                            <img className="d-block w-100" src={baby4}/>
+                          </MDBView>
+                        </MDBCarouselItem>
+                      </MDBCarouselInner>
+                    </MDBCarousel>
+                  </MDBContainer>
+                </div>
+              
+              </Paper>
+            </Grid>
+
+            {/* start of updates */}
+
+
+            <Grid item xs={10} style={{marginTop:'5vh'}}>
+              <Paper style={{paddingTop:'3vh', paddingBottom:'3vh'}}>
+                <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'5px'}}>Rouxlette</Typography><br/>
                
                 <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}> <b>Description:</b> Web application that generates a compact list of restaurants matching user specified criteria, eliminating 
                 the indecisiveness of finding a place to eat. A <i>randomize</i> feature is also available for users with no preferences. Implemented user login and registration, and scraped restaurants from the NYC Restaurant Grades public database.<br/><br/>
@@ -94,11 +218,40 @@ class ProjectsMain extends Component{
             <Grid item xs={10} style={{marginTop:'5vh'}}>
               <Paper style={{paddingTop:'3vh', paddingBottom:'3vh'}}>
                 <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'20px'}}>CATCH</Typography>
+                <a href='https://collegematcher.org' target='_blank' style={{textDecoration:'none', color:'purple', fontSize:'15px', fontWeight:'bold'}}>Click here to test the live application.</a><br/><br/>
                 <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}>  <b>Description:</b> Web application that helps match universities to prospective college students given their academic, social, and financial needs. Data visualizations
                   demonstrate how user ranks among admitted students of corresponding colleges.
-                <br/><br/><b>Technologies:</b> ReactJS, Redux, Axios, College ScoreCard API, Material UI, D3</Typography><br/>
+                <br/><br/><b>Technologies:</b> ReactJS, Redux, Axios, College ScoreCard API, Material UI</Typography><br/>
 
                 <a href='https://github.com/vinniezhang/Catch' target='_blank' style={{textDecoration:'none'}}>Click here to view this project's source code.</a>
+
+                <div style={{display:'inline-block', marginTop:'2vh'}}>
+                  <MDBContainer>
+                    <MDBCarousel
+                      activeItem={1}
+                      length={2}
+                      showControls={true}
+                      showIndicators={false}
+                      style={{zIndex:'0', width:'65%', margin:'auto', marginTop:'1vh'}}
+                    >
+                      <MDBCarouselInner>
+                        <MDBCarouselItem itemId="1">
+                          <MDBView>
+                            <img className="d-block w-100" src={catch1}/>
+                          </MDBView>
+                        </MDBCarouselItem>
+
+                        <MDBCarouselItem itemId="2">
+                          <MDBView>
+                            <img className="d-block w-100" src={catch2}/>
+                          </MDBView>
+                        </MDBCarouselItem>
+
+                      </MDBCarouselInner>
+                    </MDBCarousel>
+                  </MDBContainer>
+                </div>
+
               </Paper>
             </Grid>
 
@@ -210,6 +363,7 @@ class ProjectsMain extends Component{
             <Grid item xs={10} style={{marginTop:'5vh'}}>
               <Paper style={{paddingTop:'3vh', paddingBottom:'3vh'}}>
                 <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'20px'}}>Head Drama</Typography>
+                <a href='https://vinniezhang.github.io/HeadDrama' target='_blank' style={{textDecoration:'none', color:'#fa917a', fontSize:'15px', fontWeight:'bold'}}>Click here to test the live application.</a><br/><br/>
                 <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}>  <b>Description:</b> An interactive personality quiz in which the user's answers determines the succeeding design and layout of the website, culminating in a 
                   unique video net-art story, specifically generated according to the user's inputs.
                 <br/><br/><b>Technologies:</b> HTML/CSS, p5 JavaScript, Adobe Photoshop</Typography><br/>
@@ -272,6 +426,7 @@ class ProjectsMain extends Component{
             <Grid item xs={10} style={{marginTop:'5vh'}}>
               <Paper style={{paddingTop:'3vh', paddingBottom:'3vh'}}>
                 <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'20px'}}>Stress-Free TV</Typography>
+                <a href='https://vinniezhang.github.io/StressFreeTV' target='_blank' style={{textDecoration:'none', color:'#79d4ab', fontSize:'15px', fontWeight:'bold'}}>Click here to test the live application.</a><br/><br/>
                 <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}> <b>Description:</b> Web application that allows users to choose different audio tracks to layer over each other, with the purpose of each user being able to customize a soundscape unique to him/her.
                 All images and audio clips are self-produced.  
                 <br/><br/><b>Technologies:</b> HTML/CSS, JavaScript, Adobe Photoshop</Typography><br/>
@@ -315,6 +470,7 @@ class ProjectsMain extends Component{
             <Grid item xs={10} style={{marginTop:'5vh'}}>
               <Paper style={{paddingTop:'3vh', paddingBottom:'3vh'}}>
                 <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'20px'}}>Adventures of Pablo</Typography>
+                <a href='https://vinniezhang.github.io/AdventuresOfPablo' target='_blank' style={{textDecoration:'none', color:'#454e57', fontSize:'15px', fontWeight:'bold'}}>Click here to test the live application.</a><br/><br/>
                 <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}> <b>Description:</b> An interactive comic experience in which the user is responsible for determining the sequence 
                   of events/animations that execute. All images are self-produced.
                 <br/><br/><b>Technologies:</b> HTML/CSS, JavaScript, Adobe Photoshop</Typography><br/>
