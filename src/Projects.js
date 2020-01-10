@@ -41,6 +41,8 @@ import biome3 from './project_images/biome3.png';
 import biome4 from './project_images/biome4.png';
 import biome5 from './project_images/biome5.png';
 
+import babyGif from './gifs/babyGif.gif';
+
 
 class ProjectsMain extends Component{
   render()
@@ -57,7 +59,7 @@ class ProjectsMain extends Component{
                 <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}> <b>Description:</b> An augmented reality application that allows users to customize and combine
                 their individiual biomes (displayed via fiducial markers) to allow for an immersive and interactive experience.<br/><br/> This game was built in collaboration with three other coders, each of whom designed one of the biomes that each fiducial marker represents.
                 <br/><br/>
-                <b>Technologies:</b> HTML/CSS, JavaScript - p5 library, AR</Typography><br/>
+                <b>Technologies:</b> HTML/CSS, JavaScript - p5 library, AFrame</Typography><br/>
 
                 <a href='https://github.com/vinniezhang/BiomeBlocks' target='_blank' style={{textDecoration:'none'}}>Click here to view this project's source code.</a>
               
@@ -118,25 +120,25 @@ class ProjectsMain extends Component{
                 I coded a "Frogger"-inspired version of the baby game, where the user must collect items and avoid obstacles before crossing the river. <br/><br/>
                 <b>Technologies:</b> HTML/CSS, JavaScript - p5 library</Typography><br/>
 
-                <a href='https://github.com/vinniezhang/Interactive-Computing/tree/master/midterm' target='_blank' style={{textDecoration:'none'}}>Click here to view this project's source code.</a>
+                <a href='https://github.com/vinniezhang/Interactive-Computing/tree/master/midterm' target='_blank' style={{textDecoration:'none', display: 'block'}}>Click here to view this project's source code.</a>
               
                 <div style={{display:'inline-block', marginTop:'2vh'}}>
                   <MDBContainer>
                     <MDBCarousel
                       activeItem={1}
-                      length={4}
-                      showControls={true}
+                      length={1}
+                      showControls={false}
                       showIndicators={false}
-                      style={{zIndex:'0', width:'65%', margin:'auto', marginTop:'1vh'}}
+                      style={{zIndex:'0', width:'100%', margin:'auto', marginTop:'1vh'}}
                     >
                       <MDBCarouselInner>
                         <MDBCarouselItem itemId="1">
                           <MDBView>
-                            <img className="d-block w-100" src={baby1}/>
+                            <img className="d-block w-100" src={babyGif}/>
                           </MDBView>
                         </MDBCarouselItem>
 
-                        <MDBCarouselItem itemId="2">
+                        {/* <MDBCarouselItem itemId="2">
                           <MDBView>
                             <img className="d-block w-100" src={baby2}/>
                           </MDBView>
@@ -152,7 +154,7 @@ class ProjectsMain extends Component{
                           <MDBView>
                             <img className="d-block w-100" src={baby4}/>
                           </MDBView>
-                        </MDBCarouselItem>
+                        </MDBCarouselItem> */}
                       </MDBCarouselInner>
                     </MDBCarousel>
                   </MDBContainer>
