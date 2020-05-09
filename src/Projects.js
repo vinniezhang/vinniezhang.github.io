@@ -60,7 +60,8 @@ class ProjectsMain extends Component{
                 <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'15px', textAlign:'center', verticalAlign:'middle', marginBottom:'5px', fontFamily:'Helvetica'}}>(an iPhone application)</Typography><br/>
                
                 <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}> <b>Description:</b> An iPhone game application in which the user
-                must dodge obstacles, splash bullies and avoiding colliding with objects in his way! The user gains points with every target he hits and the levels will continually increase in difficulty as the game goes on!<br/><br/> This game was built in collaboration with two other programmers. I was in charge of UI/UX and obtaining visual assets, 
+                must dodge obstacles, splash bullies, and avoid colliding with objects in his way! The user gains points with every target he hits and levels will continually become more difficulty the longer the game goes on!<br/><br/> 
+                This game was built in collaboration with two other programmers. I was in charge of UI/UX and obtaining visual assets, 
                  as well as programming part of the gameplay. <br/><br/>
                 <b>Technologies:</b> XCode, Swift, SpriteKit, Adobe Photoshop</Typography><br/>
 
