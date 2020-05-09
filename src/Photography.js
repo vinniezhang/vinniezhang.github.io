@@ -33,7 +33,6 @@ class PhotographyMain extends Component{
   handleChange = (event, value) => {
     this.setState({ value });
     const defaultFilm = document.getElementById('defaultFilm');
-
     defaultFilm.setAttribute('style', 'display:none');
   };
 
@@ -66,7 +65,9 @@ class PhotographyMain extends Component{
               <GridList id="defaultFilm" style={{width:'100%', marginBottom:'20px', paddingLeft:'5%', paddingRight:'5%'}} cellHeight={'30%'} cols={3}>
                     {filmTileData.map(tile => (
                       <GridListTile style={{padding:'10px'}} key={tile.img} cols={tile.cols || 1}>
-                        <img style={{width:'100%'}} src={tile.img} alt={tile.title} />
+                        <a href={tile.img} target="__blank">
+                          <img style={{width:'100%'}} src={tile.img} alt={tile.title} />
+                        </a>
                       </GridListTile>
                     ))}
               </GridList>
@@ -77,7 +78,9 @@ class PhotographyMain extends Component{
                     <GridList style={{width:'100%', marginBottom:'20px', paddingLeft:'5%', paddingRight:'5%'}} cellHeight={'30%'} cols={3}>
                       {filmTileData.map(tile => (
                         <GridListTile style={{padding:'10px'}} key={tile.img} cols={tile.cols || 1}>
-                          <img style={{width:'100%'}} src={tile.img} alt={tile.title} />
+                          <a href={tile.img} target="__blank">
+                            <img style={{width:'100%'}} src={tile.img} alt={tile.title} />
+                          </a>
                         </GridListTile>
                       ))}
                     </GridList>
@@ -89,7 +92,9 @@ class PhotographyMain extends Component{
                     <GridList style={{width:'100%', marginBottom:'20px', paddingLeft:'5%', paddingRight:'5%'}} cellHeight={'30%'} cols={3}>
                       {digitalTileData.map(tile => (
                         <GridListTile style={{padding:'10px'}} key={tile.img} cols={tile.cols || 1}>
-                          <img style={{width:'100%'}} src={tile.img} alt={tile.title} />
+                          <a href={tile.img} target="__blank">
+                            <img style={{width:'100%'}} src={tile.img} alt={tile.title} />
+                          </a>
                         </GridListTile>
                       ))}
                     </GridList>

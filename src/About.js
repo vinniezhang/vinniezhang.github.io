@@ -26,10 +26,10 @@ class AboutMain extends Component{
 
                 <div style={{width:'275px', display:'inline-block', marginBottom:'2vh', paddingTop:'2vh'}}>
                     <Typography style={{color: '#9c9c87', fontSize:'15px', textAlign:'left'}}><br/>Vinnie is a senior at New York
-                  University, majoring in  Computer Science and double minoring in 
-                  Web Development and Creative Writing. <br/><br/>Among a plethora of wide-ranging 
+                  University, majoring in  <u>Computer Science</u> and double minoring in <br/>
+                  <u>Web Development and Creative Writing.</u> <br/><br/>Among a plethora of wide-ranging 
                   interests, she is especially passionate about the intersection of art and technology, 
-                  and would love to further her knowledge on UI/UX and front-end technologies. <br/><br/> Vinnie hopes to contribute meaningfully to the world, and of course,
+                  and would love to further her knowledge on <u>UI/UX and front-end technologies.</u> <br/><br/> Vinnie hopes to contribute meaningfully to the world, and of course,
                   always through creativity and technological innovation.</Typography>
                 </div>
 

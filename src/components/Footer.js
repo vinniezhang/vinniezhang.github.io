@@ -8,7 +8,7 @@ class Footer extends Component {
       return(
         <div className='footer'>
           <Divider style={{marginBottom:'10px'}}/>
-          <p>Programmed in <i>React</i> by Vinnie Zhang © 2019</p>
+          <p>Programmed in React by Vinnie Zhang © 2020</p>
         </div>
       );
     }
