@@ -40,8 +40,10 @@ import biome2 from './project_images/biome2.png';
 import biome3 from './project_images/biome3.png';
 import biome4 from './project_images/biome4.png';
 import biome5 from './project_images/biome5.png';
+import sk1 from './project_images/sk1.png';
 
 import babyGif from './gifs/babyGif.gif';
+import splashKidGif from './gifs/splashKid.gif';
 
 
 class ProjectsMain extends Component{
@@ -54,12 +56,58 @@ class ProjectsMain extends Component{
 
             <Grid item xs={10} style={{marginTop:'5vh'}}>
               <Paper style={{paddingTop:'3vh', paddingBottom:'3vh'}}>
-                <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'5px'}}>Biome Blocks</Typography><br/>
+                <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'5px'}}>Splash Kid!</Typography>
+                <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'15px', textAlign:'center', verticalAlign:'middle', marginBottom:'5px', fontFamily:'Helvetica'}}>(an iPhone application)</Typography><br/>
                
+                <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}> <b>Description:</b> An iPhone game application in which the user
+                must dodge obstacles, splash bullies and avoiding colliding with objects in his way! The user gains points with every target he hits and the levels will continually increase in difficulty as the game goes on!<br/><br/> This game was built in collaboration with two other programmers. I was in charge of UI/UX and obtaining visual assets, 
+                 as well as programming part of the gameplay. <br/><br/>
+                <b>Technologies:</b> XCode, Swift, SpriteKit, Adobe Photoshop</Typography><br/>
+
+                <a href='https://github.com/Splash-Kid-iOS/splash-kid' target='_blank' style={{textDecoration:'none', display: 'block'}}>Click here to view this project's source code.</a>
+              
+                <div style={{display:'inline-block', marginTop:'2vh'}}>
+                  <MDBContainer>
+                    <MDBCarousel
+                      activeItem={1}
+                      length={2}
+                      showControls={true}
+                      interval={false}
+                      showIndicators={false}
+                      style={{zIndex:'0', width:'100%', margin:'auto', marginTop:'1vh'}}
+                    >
+                      <MDBCarouselInner>
+                        <MDBCarouselItem itemId="1">
+                          <MDBView>
+                            <img className="d-block w-100" src={splashKidGif}/>
+                          </MDBView>
+                        </MDBCarouselItem>
+                      </MDBCarouselInner>
+
+                      <MDBCarouselInner>
+                        <MDBCarouselItem itemId="2">
+                          <MDBView>
+                            <img className="d-block w-100" src={sk1}/>
+                          </MDBView>
+                        </MDBCarouselItem>
+                      </MDBCarouselInner>
+
+                    </MDBCarousel>
+                  </MDBContainer>
+                </div>
+              
+              </Paper>
+            </Grid>
+
+            <Grid item xs={10} style={{marginTop:'5vh'}}>
+              <Paper style={{paddingTop:'3vh', paddingBottom:'3vh'}}>
+                <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'5px'}}>Biome Blocks</Typography>
+                <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'15px', textAlign:'center', verticalAlign:'middle', marginBottom:'5px', fontFamily:'Helvetica'}}>(an Augmented Reality application)</Typography><br/>
+
                 <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}> <b>Description:</b> An augmented reality application that allows users to customize and combine
                 their individiual biomes (displayed via fiducial markers) to allow for an immersive and interactive experience.<br/><br/> Users can update assets included in each biome by bringing the corresponding fiducial markers onto the screen and utilizing the camera's ability to recognize and interpret the pixel formations of each marker.
                 <br/><br/>
-                <b>Technologies:</b> HTML/CSS, JavaScript - p5 library, AFrame</Typography><br/>
+                <b>Technologies:</b> HTML/CSS, JavaScript - p5 library, AFrame, Poly models</Typography><br/>
 
                 <a href='https://github.com/vinniezhang/BiomeBlocks' target='_blank' style={{textDecoration:'none'}}>Click here to view this project's source code.</a>
               
@@ -113,12 +161,12 @@ class ProjectsMain extends Component{
 
             <Grid item xs={10} style={{marginTop:'5vh'}}>
               <Paper style={{paddingTop:'3vh', paddingBottom:'3vh'}}>
-                <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'5px'}}>Are You Baby?</Typography><br/>
-               
+                <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'5px'}}>Are You Baby?</Typography>
+
                 <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}> <b>Description:</b> A cohesive overworld that allows the user to play up to four mini-games. 
                 Starting off inside a child's playroom, the user may enter and explore multiple game stations, each indicated by a star icon. <br/><br/> This game was built in collaboration with three other programmers, each of whom was designated one of the four games to build.
                 I coded a "Frogger"-inspired game, where the user must collect items and avoid obstacles before crossing the river and reaching the door. <br/><br/>
-                <b>Technologies:</b> HTML/CSS, JavaScript - p5 library</Typography><br/>
+                <b>Technologies:</b> HTML/CSS, JavaScript - p5 library, Adobe Photoshop</Typography><br/>
 
                 <a href='https://github.com/vinniezhang/Interactive-Computing/tree/master/midterm' target='_blank' style={{textDecoration:'none', display: 'block'}}>Click here to view this project's source code.</a>
               
@@ -128,6 +176,7 @@ class ProjectsMain extends Component{
                       activeItem={1}
                       length={1}
                       showControls={false}
+                      // interval={false}
                       showIndicators={false}
                       style={{zIndex:'0', width:'100%', margin:'auto', marginTop:'1vh'}}
                     >
@@ -315,6 +364,8 @@ class ProjectsMain extends Component{
             <Grid item xs={10} style={{marginTop:'5vh'}}>
               <Paper style={{paddingTop:'3vh', paddingBottom:'3vh'}}>
                 <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'20px'}}>Sesame Street Blockbuster</Typography>
+                <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'15px', textAlign:'center', verticalAlign:'middle', marginBottom:'5px', fontFamily:'Helvetica'}}>(a Mobile and Desktop Game)</Typography><br/>
+
                 <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}>  <b>Description:</b> Recreated a Sesame Street-styled <i>Atari Breakout</i> game
                 in homage to Sesame Street's older generation of fans for their 50th Anniversary. The game has 12 levels, one for each of the main muppets
                 and includes three different power balls throughout. <i>Blockbuster</i> is currently live on SesameStreet.org/games.
