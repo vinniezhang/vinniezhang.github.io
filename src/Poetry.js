@@ -127,13 +127,12 @@ class PoetryMain extends Component{
                       style={{zIndex:'0', margin:'auto', marginTop:'1vh'}}
                     >
                         <MDBCarouselInner>
-                        {poetryTileData.map( tile => (
-                          <MDBCarouselItem itemId={poetryTileData.indexOf(tile)}>
-                            <MDBView>
-                              <img style={{border:'solid 2px grey'}} className="d-block w-100" src={tile.img}/>
-                            </MDBView>
-                          </MDBCarouselItem>
-
+                          {poetryTileData.map( tile => (
+                            <MDBCarouselItem itemId={poetryTileData.indexOf(tile)}>
+                              <MDBView>
+                                <img style={{border:'solid 2px grey'}} className="d-block w-100" src={tile.img}/>
+                              </MDBView>
+                            </MDBCarouselItem>
                           ))}
                         </MDBCarouselInner>    
                     </MDBCarousel>
