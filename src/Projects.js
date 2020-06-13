@@ -43,6 +43,7 @@ import biome5 from './project_images/biome5.png';
 import sk1 from './project_images/sk1.png';
 
 import babyGif from './gifs/babyGif.gif';
+import colorTrackGif from './gifs/color-track.gif';
 import splashKidGif from './gifs/splashKid.gif';
 
 
@@ -57,8 +58,7 @@ class ProjectsMain extends Component{
             <Grid item xs={10} style={{marginTop:'5vh'}}>
               <Paper style={{paddingTop:'3vh', paddingBottom:'3vh'}}>
                 <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'5px'}}>Splash Kid!</Typography>
-                <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'15px', textAlign:'center', verticalAlign:'middle', marginBottom:'5px', fontFamily:'Helvetica'}}>(an iPhone application)</Typography><br/>
-               
+                <a href='https://photos.google.com/share/AF1QipOO2DzPfenOuu7asppvvUTsPmt4ZAZmPebf0_UmhnSuYECtbwtbtZReK0zXNBUa5A/photo/AF1QipOHY0ZWaZh4VTaos3uVRi2jKvZ6_acrSobQGx5a?key=cDNSUnUzTUVkaElrdXVPbElsN3NKQVp3UHBGQ2dn' target='_blank' style={{textDecoration:'none', color:'skyBlue', fontSize:'15px', fontWeight:'bold'}}>Click here to watch a walk-though gameplay.</a><br/><br/>
                 <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}> <b>Description:</b> An iPhone game application in which the user
                 must dodge obstacles, splash bullies, and avoid colliding with objects in his way! The user gains points with every target he hits and levels will continually become more difficulty the longer the game goes on!<br/><br/> 
                 This game was built in collaboration with two other programmers. I was in charge of UI/UX and obtaining visual assets, 
@@ -162,8 +162,8 @@ class ProjectsMain extends Component{
 
             <Grid item xs={10} style={{marginTop:'5vh'}}>
               <Paper style={{paddingTop:'3vh', paddingBottom:'3vh'}}>
-                <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'5px'}}>Are You Baby?</Typography>
-
+                <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'5px'}}>Are You Baby?</Typography><br></br>
+                <a href='https://vinniezhang.com/are-you-baby' target='_blank' style={{textDecoration:'none', color:'teal', fontSize:'15px', fontWeight:'bold'}}>Click here to play the Frogger-inspired game.</a><br/><br/>
                 <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}> <b>Description:</b> A cohesive overworld that allows the user to play up to four mini-games. 
                 Starting off inside a child's playroom, the user may enter and explore multiple game stations, each indicated by a star icon. <br/><br/> This game was built in collaboration with three other programmers, each of whom was designated one of the four games to build.
                 I coded a "Frogger"-inspired game, where the user must collect items and avoid obstacles before crossing the river and reaching the door. <br/><br/>
@@ -205,6 +205,43 @@ class ProjectsMain extends Component{
                             <img className="d-block w-100" src={baby4}/>
                           </MDBView>
                         </MDBCarouselItem> */}
+                      </MDBCarouselInner>
+                    </MDBCarousel>
+                  </MDBContainer>
+                </div>
+              
+              </Paper>
+            </Grid>
+
+            <Grid item xs={10} style={{marginTop:'5vh'}}>
+              <Paper style={{paddingTop:'3vh', paddingBottom:'3vh'}}>
+                <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'5px'}}>AR Color Tracking Game</Typography><br></br>
+                <a href='https://vinniezhang.com/AR-color-tracking-game' target='_blank' style={{textDecoration:'none', color:'brown', fontSize:'15px', fontWeight:'bold'}}>Click here to test the live game, </a> 
+                <a href='https://drive.google.com/file/d/1dR_g46_B4dDrk57vD_JcxrzfDLf4WASi/view?usp=sharing' target='_blank' style={{textDecoration:'none', color:'red', fontSize:'15px', fontWeight:'bold'}}> and click here to watch a live demo.</a><br/><br/>
+
+                <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}> <b>Description:</b> An AR application that detects and tracks pixel color. <br/><br/>
+                The user must select a color pixel on the screen to attach its avatar (dog) to, and catch the mole while also avoiding squirrels to gain points! <br/><br/>
+                <b>Technologies:</b> HTML/CSS, JavaScript - p5 library, Adobe Photoshop</Typography><br/>
+
+                <a href='https://github.com/vinniezhang/AR-color-tracking-game' target='_blank' style={{textDecoration:'none', display: 'block'}}>Click here to view this project's source code.</a>
+              
+                <div style={{display:'inline-block', marginTop:'2vh'}}>
+                  <MDBContainer>
+                    <MDBCarousel
+                      activeItem={1}
+                      length={1}
+                      showControls={false}
+                      // interval={false}
+                      showIndicators={false}
+                      style={{zIndex:'0', width:'100%', margin:'auto', marginTop:'1vh'}}
+                    >
+                      <MDBCarouselInner>
+                        <MDBCarouselItem itemId="1">
+                          <MDBView>
+                            <img className="d-block w-100" src={colorTrackGif}/>
+                          </MDBView>
+                        </MDBCarouselItem>
+
                       </MDBCarouselInner>
                     </MDBCarousel>
                   </MDBContainer>
