@@ -57,7 +57,7 @@ class ProjectsMain extends Component{
 
             <Grid item xs={10} style={{marginTop:'5vh'}}>
               <Paper style={{paddingTop:'3vh', paddingBottom:'3vh'}}>
-                <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'5px'}}>Splash Kid!</Typography>
+                <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'5px'}}>Splash Kid!</Typography><br/>
                 <a href='https://photos.google.com/share/AF1QipOO2DzPfenOuu7asppvvUTsPmt4ZAZmPebf0_UmhnSuYECtbwtbtZReK0zXNBUa5A/photo/AF1QipOHY0ZWaZh4VTaos3uVRi2jKvZ6_acrSobQGx5a?key=cDNSUnUzTUVkaElrdXVPbElsN3NKQVp3UHBGQ2dn' target='_blank' style={{textDecoration:'none', color:'skyBlue', fontSize:'15px', fontWeight:'bold'}}>Click here to watch a walk-though gameplay.</a><br/><br/>
                 <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}> <b>Description:</b> An iPhone game application in which the user
                 must dodge obstacles, splash bullies, and avoid colliding with objects in his way! The user gains points with every target he hits and levels will continually become more difficulty the longer the game goes on!<br/><br/> 
@@ -103,12 +103,12 @@ class ProjectsMain extends Component{
             <Grid item xs={10} style={{marginTop:'5vh'}}>
               <Paper style={{paddingTop:'3vh', paddingBottom:'3vh'}}>
                 <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'5px'}}>Biome Blocks</Typography>
-                <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'15px', textAlign:'center', verticalAlign:'middle', marginBottom:'5px', fontFamily:'Helvetica'}}>(an Augmented Reality application)</Typography><br/>
-
+                {/* <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'15px', textAlign:'center', verticalAlign:'middle', marginBottom:'5px', fontFamily:'Helvetica'}}>(an Augmented Reality application)</Typography><br/> */}
+                <br/>
                 <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}> <b>Description:</b> An augmented reality application that allows users to customize and combine
                 their individiual biomes (displayed via fiducial markers) to allow for an immersive and interactive experience.<br/><br/> Users can update assets included in each biome by bringing the corresponding fiducial markers onto the screen and utilizing the camera's ability to recognize and interpret the pixel formations of each marker.
                 <br/><br/>
-                <b>Technologies:</b> HTML/CSS, JavaScript - p5 library, AFrame, Poly models</Typography><br/>
+                <b>Technologies:</b> HTML/CSS, JavaScript - p5 library, A-Frame, Google Poly models</Typography><br/>
 
                 <a href='https://github.com/vinniezhang/BiomeBlocks' target='_blank' style={{textDecoration:'none'}}>Click here to view this project's source code.</a>
               
@@ -167,7 +167,7 @@ class ProjectsMain extends Component{
                 <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}> <b>Description:</b> A cohesive overworld that allows the user to play up to four mini-games. 
                 Starting off inside a child's playroom, the user may enter and explore multiple game stations, each indicated by a star icon. <br/><br/> This game was built in collaboration with three other programmers, each of whom was designated one of the four games to build.
                 I coded a "Frogger"-inspired game, where the user must collect items and avoid obstacles before crossing the river and reaching the door. <br/><br/>
-                <b>Technologies:</b> HTML/CSS, JavaScript - p5 library, Adobe Photoshop</Typography><br/>
+                <b>Technologies:</b> HTML/CSS, JavaScript - p5 framework, Adobe Photoshop</Typography><br/>
 
                 <a href='https://github.com/vinniezhang/Interactive-Computing/tree/master/midterm' target='_blank' style={{textDecoration:'none', display: 'block'}}>Click here to view this project's source code.</a>
               
@@ -221,7 +221,7 @@ class ProjectsMain extends Component{
 
                 <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}> <b>Description:</b> An AR application that detects and tracks pixel color. <br/><br/>
                 The user must select a color pixel on the screen to attach its avatar (dog) to, and catch the mole while also avoiding squirrels to gain points! <br/><br/>
-                <b>Technologies:</b> HTML/CSS, JavaScript - p5 library, Adobe Photoshop</Typography><br/>
+                <b>Technologies:</b> HTML/CSS, JavaScript - p5 library, Perlin Noise</Typography><br/>
 
                 <a href='https://github.com/vinniezhang/AR-color-tracking-game' target='_blank' style={{textDecoration:'none', display: 'block'}}>Click here to view this project's source code.</a>
               
@@ -310,7 +310,7 @@ class ProjectsMain extends Component{
                 <a href='https://collegematcher.org' target='_blank' style={{textDecoration:'none', color:'purple', fontSize:'15px', fontWeight:'bold'}}>Click here to test the live application.</a><br/><br/>
                 <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}>  <b>Description:</b> Web application that helps match universities to prospective college students given their academic, social, and financial needs. Data visualizations
                   demonstrate how user ranks among admitted students of corresponding colleges.
-                <br/><br/><b>Technologies:</b> ReactJS, Redux, Axios, College ScoreCard API, Material UI</Typography><br/>
+                <br/><br/><b>Technologies:</b> React, Redux, Axios, College ScoreCard API, Material UI, AWS</Typography><br/>
 
                 <a href='https://github.com/vinniezhang/Catch' target='_blank' style={{textDecoration:'none'}}>Click here to view this project's source code.</a>
 
@@ -457,7 +457,7 @@ class ProjectsMain extends Component{
                 <a href='https://vinniezhang.github.io/HeadDrama' target='_blank' style={{textDecoration:'none', color:'#fa917a', fontSize:'15px', fontWeight:'bold'}}>Click here to test the live application.</a><br/><br/>
                 <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}>  <b>Description:</b> An interactive personality quiz in which the user's answers determines the succeeding design and layout of the website, culminating in a 
                   unique video net-art story, specifically generated according to the user's inputs.
-                <br/><br/><b>Technologies:</b> HTML/CSS, p5 JavaScript, Adobe Photoshop</Typography><br/>
+                <br/><br/><b>Technologies:</b> HTML/CSS, JavaScript - p5 framework, Adobe Photoshop</Typography><br/>
 
                 <a href='https://github.com/vinniezhang/HeadDrama' target='_blank' style={{textDecoration:'none'}}>Click here to view this project's source code.</a>
 
