@@ -26,7 +26,7 @@ class AboutMain extends Component{
                 </div>
 
                 <div style={{width:'275px', display:'inline-block', marginBottom:'2vh', paddingTop:'2vh'}}>
-                    <Typography style={{color: '#9c9c87', fontSize:'15px', textAlign:'left'}}><br/>Vinnie is a recent graduate of New York
+                    <Typography style={{color: '#9c9c87', fontSize:'15px', textAlign:'left'}}>Vinnie is a recent graduate of New York
                   University, having majored in  <u>Computer Science</u> and double minored in <u>Web <br/>
                   Development</u> and <u>Creative Writing.</u> <br/><br/>Among a plethora of wide-ranging 
                   interests, she is especially passionate about the intersection of design and technology, 

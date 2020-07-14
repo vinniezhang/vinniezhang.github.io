@@ -103,7 +103,7 @@ class PoetryMain extends Component{
 
           <Grid direction='row' alignItems='center' justify='center' style={{width:'100%', marginBottom:'20px', paddingLeft:'5%', paddingRight:'5%'}} xs={12}>
             <p style={{margin:'auto', marginTop: '130px', marginBottom:'15px', color: '#9c9c87', opacity: '.5', fontWeight:'bold', fontSize:'2vw'}}>P O E T R Y</p>
-            <p style={{margin:'auto', color: '#9c9c87', opacity: '.5', fontWeight:'bold', fontSize:'1vw'}}>(select a poem to open in a new tab)</p>          
+            {/* <p style={{margin:'auto', color: '#9c9c87', opacity: '.5', fontWeight:'bold', fontSize:'1vw'}}>(select a poem to open in a new tab)</p>           */}
           </Grid>
 
           <div>
