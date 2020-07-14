@@ -3,6 +3,7 @@ import Image from 'material-ui-image';
 import proPic from './images/profile.jpg'
 import { Typography } from '@material-ui/core';
 import Grid from '@material-ui/core/Grid';
+import { Link } from 'react-router-dom';
 
 class AboutMain extends Component{
   
@@ -30,7 +31,7 @@ class AboutMain extends Component{
                   Development</u> and <u>Creative Writing.</u> <br/><br/>Among a plethora of wide-ranging 
                   interests, she is especially passionate about the intersection of design and technology, 
                   and would love to further her knowledge on <u>UI/UX and front-end technologies.</u> <br/><br/> Vinnie hopes to contribute meaningfully to the world, and of course,
-                  always through creativity and technological innovation.</Typography>
+                  always through creativity and technological innovation. Click <Link to={'/Projects'} style={{textDecoration:'none', color:'#406eed'}}>here</Link> to view her portfolio! </Typography>
                 </div>
 
               </div>

@@ -57,6 +57,46 @@ class ProjectsMain extends Component{
 
             <Grid item xs={10} style={{marginTop:'5vh'}}>
               <Paper style={{paddingTop:'3vh', paddingBottom:'3vh'}}>
+                <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'20px'}}>CATCH</Typography>
+                <a href='https://collegematcher.org' target='_blank' style={{textDecoration:'none', color:'purple', fontSize:'15px', fontWeight:'bold'}}>Click here to test the live application.</a><br/><br/>
+                <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}>  <b>Description:</b> Web application that helps match universities to prospective college students given their academic, social, and financial needs. Data visualizations
+                  demonstrate how user ranks among admitted students of corresponding colleges.
+                <br/><br/><b>Technologies:</b> React, Redux, Axios, College ScoreCard API, Material UI, AWS</Typography><br/>
+
+                <a href='https://github.com/vinniezhang/Catch' target='_blank' style={{textDecoration:'none'}}>Click here to view this project's source code.</a>
+
+                <div style={{display:'inline-block', marginTop:'2vh'}}>
+                  <MDBContainer>
+                    <MDBCarousel
+                      activeItem={1}
+                      length={2}
+                      showControls={true}
+                      showIndicators={false}
+                      style={{zIndex:'0', width:'65%', margin:'auto', marginTop:'1vh'}}
+                    >
+                      <MDBCarouselInner>
+                        <MDBCarouselItem itemId="1">
+                          <MDBView>
+                            <img className="d-block w-100" src={catch1}/>
+                          </MDBView>
+                        </MDBCarouselItem>
+
+                        <MDBCarouselItem itemId="2">
+                          <MDBView>
+                            <img className="d-block w-100" src={catch2}/>
+                          </MDBView>
+                        </MDBCarouselItem>
+
+                      </MDBCarouselInner>
+                    </MDBCarousel>
+                  </MDBContainer>
+                </div>
+
+              </Paper>
+            </Grid>
+
+            <Grid item xs={10} style={{marginTop:'5vh'}}>
+              <Paper style={{paddingTop:'3vh', paddingBottom:'3vh'}}>
                 <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'5px'}}>Splash Kid!</Typography><br/>
                 <a href='https://photos.google.com/share/AF1QipOO2DzPfenOuu7asppvvUTsPmt4ZAZmPebf0_UmhnSuYECtbwtbtZReK0zXNBUa5A/photo/AF1QipOHY0ZWaZh4VTaos3uVRi2jKvZ6_acrSobQGx5a?key=cDNSUnUzTUVkaElrdXVPbElsN3NKQVp3UHBGQ2dn' target='_blank' style={{textDecoration:'none', color:'skyBlue', fontSize:'15px', fontWeight:'bold'}}>Click here to watch a walk-though gameplay.</a><br/><br/>
                 <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}> <b>Description:</b> An iPhone game application in which the user
@@ -162,6 +202,57 @@ class ProjectsMain extends Component{
 
             <Grid item xs={10} style={{marginTop:'5vh'}}>
               <Paper style={{paddingTop:'3vh', paddingBottom:'3vh'}}>
+                <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'5px'}}>Rouxlette</Typography><br/>
+               
+                <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}> <b>Description:</b> Web application that generates a compact list of restaurants matching user specified criteria, eliminating 
+                the indecisiveness of finding a place to eat. A <i>randomize</i> feature is also available for users with no preferences. Implemented user login and registration, and scraped restaurants from the NYC Restaurant Grades public database.<br/><br/>
+                <b>Technologies:</b> ReactJS, Express, NodeJS, MongoDB, Material UI, Agile Methodology</Typography><br/>
+
+                <a href='https://github.com/nyu-software-engineering/spring-2019-food-finder' target='_blank' style={{textDecoration:'none'}}>Click here to view this project's source code.</a>
+              
+                <div style={{display:'inline-block', marginTop:'2vh'}}>
+                  <MDBContainer>
+                    <MDBCarousel
+                      activeItem={1}
+                      length={4}
+                      showControls={true}
+                      showIndicators={false}
+                      style={{zIndex:'0', width:'65%', margin:'auto', marginTop:'1vh', border:'3px solid black'}}
+                    >
+                      <MDBCarouselInner>
+                        <MDBCarouselItem itemId="1">
+                          <MDBView>
+                            <img className="d-block w-100" src={rouxlette1}/>
+                          </MDBView>
+                        </MDBCarouselItem>
+
+                        <MDBCarouselItem itemId="2">
+                          <MDBView>
+                            <img className="d-block w-100" src={rouxlette2}/>
+                          </MDBView>
+                        </MDBCarouselItem>
+
+                        <MDBCarouselItem itemId="3">
+                          <MDBView>
+                            <img className="d-block w-100" src={rouxlette3}/>
+                          </MDBView>
+                        </MDBCarouselItem>
+
+                        <MDBCarouselItem itemId="4">
+                          <MDBView>
+                            <img className="d-block w-100" src={rouxlette4}/>
+                          </MDBView>
+                        </MDBCarouselItem>
+                      </MDBCarouselInner>
+                    </MDBCarousel>
+                  </MDBContainer>
+                </div>
+              
+              </Paper>
+            </Grid>
+
+            <Grid item xs={10} style={{marginTop:'5vh'}}>
+              <Paper style={{paddingTop:'3vh', paddingBottom:'3vh'}}>
                 <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'5px'}}>Are You Baby?</Typography><br></br>
                 <a href='https://vinniezhang.com/are-you-baby' target='_blank' style={{textDecoration:'none', color:'teal', fontSize:'15px', fontWeight:'bold'}}>Click here to play the Frogger-inspired game.</a><br/><br/>
                 <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}> <b>Description:</b> A cohesive overworld that allows the user to play up to four mini-games. 
@@ -251,98 +342,6 @@ class ProjectsMain extends Component{
             </Grid>
 
             {/* start of updates */}
-
-
-            <Grid item xs={10} style={{marginTop:'5vh'}}>
-              <Paper style={{paddingTop:'3vh', paddingBottom:'3vh'}}>
-                <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'5px'}}>Rouxlette</Typography><br/>
-               
-                <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}> <b>Description:</b> Web application that generates a compact list of restaurants matching user specified criteria, eliminating 
-                the indecisiveness of finding a place to eat. A <i>randomize</i> feature is also available for users with no preferences. Implemented user login and registration, and scraped restaurants from the NYC Restaurant Grades public database.<br/><br/>
-                <b>Technologies:</b> ReactJS, Express, NodeJS, MongoDB, Material UI, Agile Methodology</Typography><br/>
-
-                <a href='https://github.com/nyu-software-engineering/spring-2019-food-finder' target='_blank' style={{textDecoration:'none'}}>Click here to view this project's source code.</a>
-              
-                <div style={{display:'inline-block', marginTop:'2vh'}}>
-                  <MDBContainer>
-                    <MDBCarousel
-                      activeItem={1}
-                      length={4}
-                      showControls={true}
-                      showIndicators={false}
-                      style={{zIndex:'0', width:'65%', margin:'auto', marginTop:'1vh', border:'3px solid black'}}
-                    >
-                      <MDBCarouselInner>
-                        <MDBCarouselItem itemId="1">
-                          <MDBView>
-                            <img className="d-block w-100" src={rouxlette1}/>
-                          </MDBView>
-                        </MDBCarouselItem>
-
-                        <MDBCarouselItem itemId="2">
-                          <MDBView>
-                            <img className="d-block w-100" src={rouxlette2}/>
-                          </MDBView>
-                        </MDBCarouselItem>
-
-                        <MDBCarouselItem itemId="3">
-                          <MDBView>
-                            <img className="d-block w-100" src={rouxlette3}/>
-                          </MDBView>
-                        </MDBCarouselItem>
-
-                        <MDBCarouselItem itemId="4">
-                          <MDBView>
-                            <img className="d-block w-100" src={rouxlette4}/>
-                          </MDBView>
-                        </MDBCarouselItem>
-                      </MDBCarouselInner>
-                    </MDBCarousel>
-                  </MDBContainer>
-                </div>
-              
-              </Paper>
-            </Grid>
-
-            <Grid item xs={10} style={{marginTop:'5vh'}}>
-              <Paper style={{paddingTop:'3vh', paddingBottom:'3vh'}}>
-                <Typography style={{paddingLeft:'5px', paddingRight:'5px', color: '#9c9c87', fontSize:'25px', textAlign:'center', verticalAlign:'middle', marginBottom:'20px'}}>CATCH</Typography>
-                <a href='https://collegematcher.org' target='_blank' style={{textDecoration:'none', color:'purple', fontSize:'15px', fontWeight:'bold'}}>Click here to test the live application.</a><br/><br/>
-                <Typography style={{color: '#5c563a', fontSize:'15px', textAlign:'left', marginBottom:'10px', margin:'auto', width:'65%'}}>  <b>Description:</b> Web application that helps match universities to prospective college students given their academic, social, and financial needs. Data visualizations
-                  demonstrate how user ranks among admitted students of corresponding colleges.
-                <br/><br/><b>Technologies:</b> React, Redux, Axios, College ScoreCard API, Material UI, AWS</Typography><br/>
-
-                <a href='https://github.com/vinniezhang/Catch' target='_blank' style={{textDecoration:'none'}}>Click here to view this project's source code.</a>
-
-                <div style={{display:'inline-block', marginTop:'2vh'}}>
-                  <MDBContainer>
-                    <MDBCarousel
-                      activeItem={1}
-                      length={2}
-                      showControls={true}
-                      showIndicators={false}
-                      style={{zIndex:'0', width:'65%', margin:'auto', marginTop:'1vh'}}
-                    >
-                      <MDBCarouselInner>
-                        <MDBCarouselItem itemId="1">
-                          <MDBView>
-                            <img className="d-block w-100" src={catch1}/>
-                          </MDBView>
-                        </MDBCarouselItem>
-
-                        <MDBCarouselItem itemId="2">
-                          <MDBView>
-                            <img className="d-block w-100" src={catch2}/>
-                          </MDBView>
-                        </MDBCarouselItem>
-
-                      </MDBCarouselInner>
-                    </MDBCarousel>
-                  </MDBContainer>
-                </div>
-
-              </Paper>
-            </Grid>
 
             <Grid item xs={10} style={{marginTop:'5vh'}}>
               <Paper style={{paddingTop:'3vh', paddingBottom:'3vh'}}>
