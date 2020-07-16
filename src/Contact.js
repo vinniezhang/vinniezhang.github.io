@@ -60,7 +60,7 @@ class ContactMain extends Component{
 
               <Grid style={{height:'4vh', margin:'7.5vh'}} item xs={12} lg={3}>
                 <Paper style={{opacity:'.6', padding:'3vh', marginRight:'1vw', marginLeft:'1vw'}}>
-                  <a href='mailto:vz377@nyu.edu' style={{textDecoration:'none'}}>
+                  <a href='mailto:vinniez128@gmail.com' style={{textDecoration:'none'}}>
                     <Typography style={{margin:'auto', fontSize:'2vw', color:'black', fontWeight:'bold'}}>
                       Email
                     </Typography>
