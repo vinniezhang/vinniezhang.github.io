@@ -3,8 +3,8 @@ import { Document, Page } from 'react-pdf';
 import ReactDOM from 'react-dom';
 import Grid from '@material-ui/core/Grid';
 import Image from 'material-ui-image';
-import resumePic from './images/Resume_July_2020.jpg';
-import resumePDF from './pdf/Resume_July_2020.pdf';
+import resumePic from './images/Resume_Oct_2020.jpg';
+import resumePDF from './pdf/Resume_Oct_2020.pdf';
 import { Link } from 'react-router-dom';
 
 class ResumeMain extends Component{
